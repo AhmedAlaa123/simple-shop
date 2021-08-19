@@ -1,0 +1,10 @@
+{
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.editor.wrapTabs": true,
+    "eslint.format.enable": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.requireConfig": true,
+    "prettier.requirePragma": true,
+    "prettier.resolveGlobalModules": true
+}
