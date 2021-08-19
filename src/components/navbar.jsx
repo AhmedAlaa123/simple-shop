@@ -8,7 +8,7 @@ const Navbar = (props) => {
           
             <ul className='navbar-nav '>
               <li className="nav-item ">
-                  <NavLink className="nav-link" exact to='/simple-shop/'>Menu </NavLink>
+                  <NavLink className="nav-link" exact to='/simple-shop/menu'>Menu </NavLink>
               </li>
               <li className="nav-item ">
                   <NavLink className="nav-link" to='/simple-shop/cart'>Shopping Cart </NavLink>
