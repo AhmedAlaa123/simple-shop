@@ -26,7 +26,7 @@ class AddProduct extends Component {
         if(!(this.props.isActive))
         {
             // redirect to login page if user is not active when he want to open add product page.
-          this.props.history.replace('/login')
+          this.props.history.replace('/simple-shop/login')
           return
         }
       

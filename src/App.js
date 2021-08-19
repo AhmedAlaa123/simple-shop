@@ -119,7 +119,7 @@ class App extends React.Component {
         <Navbar/>
       <Switch>
         <Route exact  path='/simple-shop/menu' render={(props)=><Menu {...this.state} addToCart={this.handelAddToCartOrRemove}/>}/>
-        <Route path='/cart' render={(props)=><Cart
+        <Route path='/simple-shop/cart' render={(props)=><Cart
           {...props} 
           products={this.state.products.filter(product=>product.incart)}
           reset={this.handelReset}
@@ -127,11 +127,11 @@ class App extends React.Component {
           decrementCount={this.handdeldecremnt}
           deleteProduct={this.handelAddToCartOrRemove}
           />}/>
-          <Route path='/add-product' render={(props)=><AddProduct {...props} {...this.state.user} submit={this.handelAddProduct}/>}/>
-        <Route path='/pagenotfound' component={PageNotFound}/>
-        <Route path='/login' render={(props)=><LoginPage {...props} login={this.handelLogin}/>}/>
-        <Redirect to='/simple-shop/menu' from='/'/>
-        <Redirect to='/pagenotfound'/>
+        <Route path='/simple-shop/add-product' render={(props)=><AddProduct {...props} {...this.state.user} submit={this.handelAddProduct}/>}/>
+        <Route path='/simple-shop/pagenotfound' component={PageNotFound}/>
+        <Route path='/simple-shop/login' render={(props)=><LoginPage {...props} login={this.handelLogin}/>}/>
+        <Redirect exact to='/simple-shop/menu' from='/'/>
+        <Redirect to='/simple-shop/pagenotfound'/>
       </Switch>
       </BrowserRouter>
     );
