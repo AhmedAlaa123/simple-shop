@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/simple-shop/static/css/main.a617e044.chunk.css",
+    "main.js": "/simple-shop/static/js/main.5d429782.chunk.js",
+    "main.js.map": "/simple-shop/static/js/main.5d429782.chunk.js.map",
+    "runtime-main.js": "/simple-shop/static/js/runtime-main.a4c00b24.js",
+    "runtime-main.js.map": "/simple-shop/static/js/runtime-main.a4c00b24.js.map",
+    "static/css/2.32933cf3.chunk.css": "/simple-shop/static/css/2.32933cf3.chunk.css",
+    "static/js/2.de9c39a3.chunk.js": "/simple-shop/static/js/2.de9c39a3.chunk.js",
+    "static/js/2.de9c39a3.chunk.js.map": "/simple-shop/static/js/2.de9c39a3.chunk.js.map",
+    "static/js/3.ab792076.chunk.js": "/simple-shop/static/js/3.ab792076.chunk.js",
+    "static/js/3.ab792076.chunk.js.map": "/simple-shop/static/js/3.ab792076.chunk.js.map",
+    "index.html": "/simple-shop/index.html",
+    "static/css/2.32933cf3.chunk.css.map": "/simple-shop/static/css/2.32933cf3.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/simple-shop/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.de9c39a3.chunk.js.LICENSE.txt": "/simple-shop/static/js/2.de9c39a3.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/simple-shop/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4c00b24.js",
+    "static/css/2.32933cf3.chunk.css",
+    "static/js/2.de9c39a3.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.5d429782.chunk.js"
+  ]
+}
